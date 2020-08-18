@@ -6,10 +6,32 @@
     <link rel="stylesheet" href="mainstyle.css">
   </head>
   <style media="screen">
+    #me{
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      grid-template-rows: 3fr 2fr;
+      padding: 20px;
+      padding-left: 13px;
+      border-bottom: 1px solid #9DC8C8;
+    }
     .friend{
       padding-top: 20px;
       padding-bottom: 20px;
       border-bottom: 1px solid #9DC8C8;
+    }
+    #moremenu{
+      display: grid;
+      padding: 40px;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-bottom: 1.5px solid #9DC8C8;
+    }
+    #suggestion{
+      display: grid;
+      padding: 30px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .addby{
+      text-align: center;
     }
   </style>
   <body>
@@ -21,7 +43,40 @@
       <div> </div>
     </header>
     <main>
-
+      <div id="me">
+        <div class="profilepic"><img src="profilepic.svg" width="50px"></div>
+        <div class="name">Hyewon Hwang</div>
+        <div class="state">I'm learning web programming.</div>
+      </div>
+      <div id="moremenu">
+        <div class="addby">
+          <div><img src="emoticon.svg" width="30px"></div>
+          <div>Emoticons</div>
+        </div>
+        <div class="addby">
+          <div><img src="theme.svg" width="30px"></div>
+          <div>Themes</div>
+        </div>
+        <div class="addby">
+          <div><img src="coin.svg" width="30px"></div>
+          <div>Account</div>
+        </div>
+      </div>
+      <div class="kind">Suggestions</div>
+        <div id="suggestion">
+          <div class="addby">
+            <div><img src="icon1.svg" width="40px"></div>
+            <div>One</div>
+          </div>
+          <div class="addby">
+            <div><img src="icon2.svg" width="40px"></div>
+            <div>Two</div>
+          </div>
+          <div class="addby">
+            <div><img src="icon3.svg" width="40px"></div>
+            <div>Three</div>
+          </div>
+        </div>
     </main>
     <footer>
       <div class="menu_icon">
