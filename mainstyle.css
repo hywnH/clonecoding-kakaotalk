@@ -16,6 +16,9 @@ header{
   top: 0;
   width: 100%;
 }
+.icon{
+  text-align: right;
+}
 main{
   padding-top: 77.9px;
   padding-bottom: 78.2px;
@@ -28,7 +31,7 @@ footer{
 }
 .friend{
   display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 80px auto 1fr 40px;
   grid-template-rows: 3fr 2fr;
   padding: 10px;
 }
@@ -41,10 +44,31 @@ footer{
 .name{
   font-size: 20px;
   align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 .state{
   font-size: 10px;
   align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.lasttalk{
+  font-size: 10px;
+  color: #9DC8C8;
+  align-self: center;
+  margin-left: 10px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.add{
+  align-self: center;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 .kind{
   padding: 10px;
@@ -54,12 +78,10 @@ footer{
 }
 .menu_icon{
   text-align: center;
+  padding: 20px;
 }
 footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 20px;
-  padding-left: 0;
-  padding-right: 0;
   border-top: 1.5px solid #9DC8C8;
 }

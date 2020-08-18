@@ -7,45 +7,58 @@
   </head>
   <style media="screen">
     .friend{
-      display: grid;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border-bottom: 1px solid #9DC8C8;
     }
-
+    #add-friend{
+      display: grid;
+      padding: 30px;
+      grid-template-columns: 1fr 1.5fr 1fr 1fr;
+    }
+    .addby{
+      text-align: center;
+    }
   </style>
   <body>
     <header>
       <div> </div>
-      <div>Chattings</div>
+      <div>Find</div>
       <div class="icon"><img src="search.svg" width="30px"></div>
       <div class="icon"><img src="settings.svg" width="30px"></div>
       <div> </div>
     </header>
     <main>
+      <div id="add-friend">
+        <div class="addby">
+          <div><img src="QR.svg" width="30px"></div>
+          <div>QR Code</div>
+        </div>
+        <div class="addby">
+          <div><img src="useradd.svg" width="30px"></div>
+          <div>Add by Contacts</div>
+        </div>
+        <div class="addby">
+          <div><img src="ID.svg" width="30px"></div>
+          <div>Add by ID</div>
+        </div>
+        <div class="addby">
+          <div><img src="invite.svg" width="30px"></div>
+          <div>Invite</div>
+        </div>
+      </div>
+      <div class="kind">Recommended Friends</div>
       <div class="friend">
         <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
-        <div class="name">Chat 1</div>
-        <div class="state message">Hello, I'm Friend 1.</div>
-        <div class="lasttalk">00:00</div>
+        <div class="name">Friend? 1</div>
+        <div class="state message">Hi, I'm Friend? 1.</div>
+        <div class="add"><img src="add.svg" width="30px"></div>
       </div>
       <div class="friend">
         <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
-        <div class="name">Chat 2</div>
-        <div class="state message">Hi, I'm Friend 2.</div>
-        <div class="lasttalk">00:00</div>
-      </div>
-      <div class="friend">
-        <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
-        <div class="name">Chat 3</div>
-        <div class="state message">Nice to meet you, I'm Friend 3.</div>
-        <div class="lasttalk">00:00</div>
-      </div>
-      <div class="friend">
-        <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
-        <div class="name">Chat 4</div>
-        <div class="state message">Good bye.</div>
-        <div class="lasttalk">00:00</div>
+        <div class="name">Friend? 2</div>
+        <div class="state message">Hi, I'm Friend? 2.</div>
+        <div class="add"><img src="add.svg" width="30px"></div>
       </div>
     </main>
     <footer>
