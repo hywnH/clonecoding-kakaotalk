@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Friends | kakao clone</title>
+  </head>
+  <style media="screen">
+    body{
+      font-family: "LG Smart UI";
+      margin: 0;
+    }
+    header{
+      align-items: center;
+      display: grid;
+      grid-template-columns: 20px 1fr 50px 50px 20px;
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1.5px solid #9DC8C8;
+      font-weight: bold;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    main{
+      padding-top: 77.9px;
+      padding-bottom: 78.2px;
+    }
+    footer{
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .icon{
+      text-align: right;
+    }
+    #me{
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      grid-template-rows: 3fr 2fr;
+      padding: 20px;
+      padding-left: 13px;
+      border-bottom: 1.5px solid #9DC8C8;
+    }
+    #Pluses{
+      border-bottom: 1.5px solid #9DC8C8;
+    }
+    .friend{
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      grid-template-rows: 3fr 2fr;
+      padding: 10px;
+    }
+    .profilepic{
+      align-self: center;
+      text-align: center;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .name{
+      font-size: 20px;
+      align-self: center;
+    }
+    .state{
+      font-size: 10px;
+      align-self: center;
+    }
+    .kind{
+      padding: 10px;
+    }
+    .menu_icon img{
+      height: 35px;
+    }
+    .menu_icon{
+      text-align: center;
+    }
+    footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 20px;
+      padding-left: 0;
+      padding-right: 0;
+      border-top: 1.5px solid #9DC8C8;
+    }
+  </style>
+  <body>
+    <header>
+      <div> </div>
+      <div>Friends</div>
+      <div class="icon"><img src="search.svg" width="30px"></div>
+      <div class="icon"><img src="settings.svg" width="30px"></div>
+      <div> </div>
+    </header>
+    <main>
+      <div id="me">
+        <div class="profilepic"><img src="profilepic.svg" width="50px"></div>
+        <div class="name">Hyewon Hwang</div>
+        <div class="state">I'm learning web programming.</div>
+      </div>
+      <div id="Pluses">
+        <div class="kind">Plus Friend</div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Plus Friend</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Plus Friend</div>
+        </div>
+      </div>
+      <div id="Friends">
+        <div class="kind">Friends, 7</div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 1</div>
+          <div class="state message">Hi, I'm Friend 1.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 2</div>
+          <div class="state message">Hi, I'm Friend 2.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 3</div>
+          <div class="state message">Hi, I'm Friend 3.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 4</div>
+          <div class="state message">Hi, I'm Friend 4.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 5</div>
+          <div class="state message">Hi, I'm Friend 5.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 6</div>
+          <div class="state message">Hi, I'm Friend 6.</div>
+        </div>
+        <div class="friend">
+          <div class="profilepic"><img src="profilepic.svg" width="40px"></div>
+          <div class="name">Friend 7</div>
+          <div class="state message">Hi, I'm Friend 7.</div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="menu_icon">
+        <img src="user.svg">
+      </div>
+      <div class="menu_icon">
+        <img src="chat.svg">
+      </div>
+      <div class="menu_icon">
+        <img src="search.svg">
+      </div>
+      <div class="menu_icon">
+        <img src="seemore.svg">
+      </div>
+    </footer>
+</html>

@@ -1,0 +1,51 @@
+body{
+  font-family: "LG Smart UI";
+}
+header{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 50px 50px;
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 1.5px solid #9DC8C8;
+  font-weight: bold;
+}
+.icon{
+  text-align: right;
+}
+#me{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 3fr 2fr;
+  padding: 20px;
+  padding-left: 13px;
+  border-bottom: 1.5px solid #9DC8C8;
+}
+#Pluses{
+  border-bottom: 1.5px solid #9DC8C8;
+}
+#Friends{
+  border-bottom: 1.5px solid #9DC8C8;
+}
+.friend{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 3fr 2fr;
+  padding: 10px;
+}
+.profilepic{
+  align-self: center;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.name{
+  font-size: 20px;
+  align-self: center;
+}
+.state{
+  font-size: 10px;
+  align-self: center;
+}
+.kind{
+  padding: 10px;
