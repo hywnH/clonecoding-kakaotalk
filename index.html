@@ -3,36 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Friends | kakao clone</title>
+    <link rel="stylesheet" href="mainstyle.css">
   </head>
-  <style media="screen">
-    body{
-      font-family: "LG Smart UI";
-      margin: 0;
-    }
-    header{
-      align-items: center;
-      display: grid;
-      grid-template-columns: 20px 1fr 50px 50px 20px;
-      font-size: 30px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: 1.5px solid #9DC8C8;
-      font-weight: bold;
-      background-color: white;
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
-    main{
-      padding-top: 77.9px;
-      padding-bottom: 78.2px;
-    }
-    footer{
-      background-color: white;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+  <style>
     .icon{
       text-align: right;
     }
@@ -46,43 +19,6 @@
     }
     #Pluses{
       border-bottom: 1.5px solid #9DC8C8;
-    }
-    .friend{
-      display: grid;
-      grid-template-columns: 80px 1fr;
-      grid-template-rows: 3fr 2fr;
-      padding: 10px;
-    }
-    .profilepic{
-      align-self: center;
-      text-align: center;
-      grid-row-start: 1;
-      grid-row-end: 3;
-    }
-    .name{
-      font-size: 20px;
-      align-self: center;
-    }
-    .state{
-      font-size: 10px;
-      align-self: center;
-    }
-    .kind{
-      padding: 10px;
-    }
-    .menu_icon img{
-      height: 35px;
-    }
-    .menu_icon{
-      text-align: center;
-    }
-    footer{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      padding: 20px;
-      padding-left: 0;
-      padding-right: 0;
-      border-top: 1.5px solid #9DC8C8;
     }
   </style>
   <body>
@@ -151,10 +87,10 @@
     </main>
     <footer>
       <div class="menu_icon">
-        <img src="user.svg">
+        <a href="index.html"><img src="user.svg"></a>
       </div>
       <div class="menu_icon">
-        <img src="chat.svg">
+        <a href="chat.html"><img src="chat.svg"></a>
       </div>
       <div class="menu_icon">
         <img src="search.svg">
