@@ -88,3 +88,20 @@ footer{
   display: grid;
   grid-template-columns: 10px 1fr 50px;
 }
+@keyframes mainin {
+  from{
+    margin-top: 70%;
+  }
+  50%{
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  to{
+    padding-top: 77.9px;
+    margin-top: 0;
+  }
+}
+main{
+  animation-duration: 0.6s;
+  animation-name: mainin;
+}
