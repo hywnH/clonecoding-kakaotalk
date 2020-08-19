@@ -5,13 +5,25 @@
     <title>Chat 1 | kakao clone</title>
     <link rel="stylesheet" href="chatroom-style.css">
   </head>
+  <script>
+    function addmessage(text){
+      var chatBlock = document.createElement('div')
+      chatBlock.className = "userchat";
+      chatBlock.innerHTML = '<div></div>' + '<div class="text">'+ text + '</div>' + '<div></div>';
+      document.getElementById('UserChat').appendChild(chatBlock);
+    }
+    function send(){
+      if (document.getElementById('tosend').value !== ''){
+        toSend = document.getElementById('tosend').value;
+        addmessage(toSend);
+        document.getElementById('tosend').value = '';
+      }
+    }
+  </script>
   <body>
     <header>
       <div> </div>
       <div>Chat 1</div>
-      <div></div>
-      <div></div>
-      <div> </div>
     </header>
     <main>
       <div class="friend">
@@ -19,14 +31,20 @@
         <div class="message">Hello, I'm Friend 1.</div>
         <div class="lasttalk">00:00</div>
       </div>
+      <div id="UserChat">
+      </div>
     </main>
     <footer>
       <div> </div>
-      <div class="input">
-        <input type="text" size="55px">
+      <div class="input" onkeydown="
+        if (window.event.keyCode == 13){
+          send()
+        }">
+        <input type="text" id="tosend">
       </div>
       <div class="send">
-        <button type="button"><img src="uparrow.svg" width="20px">
+        <button type="button" onclick=send()>
+        <img src="uparrow.svg" width="20px"></button>
       </div>
     </footer>
   </body>
