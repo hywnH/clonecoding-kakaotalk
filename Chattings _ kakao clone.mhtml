@@ -1,0 +1,170 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///E:/XAMPP/htdocs/Kakaotalk-CloneCoding/chatroom1.html
+Subject: Chattings | kakao clone
+Date: Wed, 19 Aug 2020 07:10:10 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----"
+
+
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----
+Content-Type: text/html
+Content-ID: <frame-740E2079EBDC2ECB88CF86B052FAD2B6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/XAMPP/htdocs/Kakaotalk-CloneCoding/chatroom1.html
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr"><head><meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
+ype=3D"text/css" href=3D"cid:css-7c426386-a82f-4a81-abbf-8d31b8f96651@mhtml=
+.blink" />
+   =20
+    <title>Chattings | kakao clone</title>
+    <link rel=3D"stylesheet" href=3D"file:///E:/XAMPP/htdocs/Kakaotalk-Clon=
+eCoding/chatroom-style.css" <=3D"" head=3D"">
+ =20
+  </head><body>
+    <header>
+      <div> </div>
+      <div>Chat 1</div>
+      <div></div>
+      <div></div>
+      <div> </div>
+    </header>
+    <main>
+      <div class=3D"friend">
+        <div class=3D"profilepic"><img src=3D"file:///E:/XAMPP/htdocs/Kakao=
+talk-CloneCoding/profilepic.svg" width=3D"40px"></div>
+        <div class=3D"message">Hello, I'm Friend 1.</div>
+        <div class=3D"lasttalk">00:00</div>
+      </div>
+    </main>
+    <footer>
+      <div class=3D"input">
+        <input type=3D"text" size=3D"55px">
+      </div>
+      <div class=3D"send">
+        <button type=3D"button"><img src=3D"file:///E:/XAMPP/htdocs/Kakaota=
+lk-CloneCoding/uparrow.svg" width=3D"20px">
+      </button></div>
+    </footer>
+ =20
+
+</body></html>
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7c426386-a82f-4a81-abbf-8d31b8f96651@mhtml.blink
+
+@charset "utf-8";
+
+body { background-color: rgb(53, 56, 72); }
+
+.friend { display: grid; padding-top: 20px; padding-bottom: 20px; }
+
+#menu-Chattings { background-color: rgb(157, 200, 200); }
+
+a { color: black; text-decoration: none; }
+
+button { background-color: rgb(163, 201, 199); border: none; border-radius:=
+ 5px; color: white; padding: 15px; text-align: center; display: inline-bloc=
+k; font-size: 16px; }
+
+input { background-color: rgb(163, 201, 199); width: 90%; border: none; bor=
+der-radius: 5px; color: white; padding: 15px; text-align: center; text-deco=
+ration: none; display: inline-block; font-size: 16px; }
+
+footer { margin: 5px; }
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/XAMPP/htdocs/Kakaotalk-CloneCoding/chatroom-style.css
+
+@charset "utf-8";
+
+body { font-family: "LG Smart UI"; margin: 0px; }
+
+header { align-items: center; display: grid; grid-template-columns: 20px 1f=
+r 50px 50px 20px; font-size: 30px; padding-top: 20px; padding-bottom: 20px;=
+ border-bottom: 1.5px solid rgb(157, 200, 200); font-weight: bold; backgrou=
+nd-color: white; position: fixed; top: 0px; width: 100%; }
+
+.icon { text-align: right; }
+
+main { padding-top: 77.9px; padding-bottom: 78.2px; }
+
+footer { background-color: white; position: fixed; bottom: 0px; width: 100%=
+; }
+
+.friend { display: grid; grid-template-columns: 80px auto 1fr 40px; grid-te=
+mplate-rows: 3fr 2fr; padding: 10px; }
+
+.profilepic { align-self: center; text-align: center; grid-row: 1 / 3; }
+
+.name { font-size: 20px; align-self: center; grid-column: 2 / 4; }
+
+.state { font-size: 10px; align-self: center; grid-column: 2 / 3; }
+
+.lasttalk { font-size: 10px; color: rgb(157, 200, 200); align-self: center;=
+ margin-left: 10px; grid-area: 2 / 3 / 3 / 4; }
+
+.add { align-self: center; grid-area: 1 / 4 / 3 / 5; }
+
+.kind { padding: 10px; }
+
+.menu_icon img { height: 35px; }
+
+.menu_icon { text-align: center; padding: 20px; }
+
+.message { font-size: 20px; color: white; align-self: center; grid-area: 1 =
+/ 2 / 3 / 3; padding: 3px 5px; background-image: linear-gradient(to right b=
+ottom, rgb(203, 117, 117), rgb(239, 158, 159)); border-radius: 3px; }
+
+.input { text-align: center; }
+
+.send { text-align: center; }
+
+button { border-radius: 5px; color: white; padding: 15px; text-align: cente=
+r; display: inline-block; font-size: 16px; }
+
+input { background-color: rgb(163, 201, 199); width: 100%; border: none; bo=
+rder-radius: 5px; color: white; padding: 15px; text-align: center; text-dec=
+oration: none; display: inline-block; font-size: 16px; }
+
+footer { margin: 5px; display: grid; grid-template-columns: 1fr 70px; borde=
+r-top: 1.5px solid rgb(157, 200, 200); }
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/XAMPP/htdocs/Kakaotalk-CloneCoding/profilepic.svg
+
+<svg height=3D"512pt" viewBox=3D"0 0 512 512" width=3D"512pt" xmlns=3D"http=
+://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink"><linea=
+rGradient id=3D"a" gradientTransform=3D"matrix(1 0 0 -1 0 -19430)" gradient=
+Units=3D"userSpaceOnUse" x1=3D"0" x2=3D"512" y1=3D"-19686" y2=3D"-19686"><s=
+top offset=3D"0" stop-color=3D"#00f38d"/><stop offset=3D"1" stop-color=3D"#=
+009eff"/></linearGradient><path d=3D"m512 256c0 141.386719-114.613281 256-2=
+56 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 25=
+6zm0 0" fill=3D"url(#a)"/><path d=3D"m314.203125 247.9375c23.515625-17.7109=
+38 38.75-45.851562 38.75-77.488281 0-53.457031-43.492187-96.949219-96.95312=
+5-96.949219-53.457031 0-96.949219 43.492188-96.949219 96.949219 0 31.636719=
+ 15.230469 59.777343 38.746094 77.488281-62.960937 23.632812-107.894531 84.=
+445312-107.894531 155.5625h30c0-75.046875 61.054687-136.097656 136.101562-1=
+36.097656 75.042969 0 136.097656 61.050781 136.097656 136.097656h30c-.00390=
+6-71.117188-44.933593-131.929688-107.898437-155.5625zm-125.152344-77.488281=
+c0-36.917969 30.03125-66.949219 66.949219-66.949219s66.949219 30.03125 66.9=
+49219 66.949219-30.03125 66.953125-66.949219 66.953125-66.949219-30.035156-=
+66.949219-66.953125zm0 0" fill=3D"#fff"/></svg>
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///E:/XAMPP/htdocs/Kakaotalk-CloneCoding/uparrow.svg
+
+<svg id=3D"Layer" enable-background=3D"new 0 0 64 64" height=3D"512" viewBo=
+x=3D"0 0 64 64" width=3D"512" xmlns=3D"http://www.w3.org/2000/svg"><path d=
+=3D"m32 56c1.104 0 2-.896 2-2v-39.899l14.552 15.278c.393.413.92.621 1.448.6=
+21.495 0 .992-.183 1.379-.552.8-.762.831-2.028.069-2.828l-16.619-17.448c-.7=
+56-.755-1.76-1.172-2.829-1.172s-2.073.417-2.862 1.207l-16.586 17.414c-.762.=
+8-.731 2.066.069 2.828s2.067.731 2.828-.069l14.551-15.342v39.962c0 1.104.89=
+6 2 2 2z"/></svg>
+------MultipartBoundary--3j1wGGsBkH4ulVPXOnxfLIzYPI87E0icFoa8hv2T4v------

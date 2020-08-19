@@ -1,6 +1,7 @@
 body{
   font-family: "LG Smart UI";
   margin: 0;
+  background-color: #353848;
 }
 header{
   align-items: center;
@@ -9,7 +10,6 @@ header{
   font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1.5px solid #9DC8C8;
   font-weight: bold;
   background-color: white;
   position: fixed;
@@ -23,38 +23,18 @@ main{
   padding-top: 77.9px;
   padding-bottom: 78.2px;
 }
-footer{
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-top: 1.5px solid #9DC8C8;
-}
+
 .friend{
   display: grid;
   grid-template-columns: 80px auto 1fr 40px;
   grid-template-rows: 3fr 2fr;
-  padding: 10px;
+  padding: 20px 0;
 }
 .profilepic{
   align-self: center;
   text-align: center;
   grid-row-start: 1;
   grid-row-end: 3;
-}
-.name{
-  font-size: 20px;
-  align-self: center;
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-.state{
-  font-size: 10px;
-  align-self: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
 .lasttalk{
   font-size: 10px;
@@ -66,20 +46,45 @@ footer{
   grid-column-start: 3;
   grid-column-end: 4;
 }
-.add{
+.message{
+  font-size: 20px;
+  color: white;
   align-self: center;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+  padding: 3px 7px;
+  background-image: linear-gradient(to bottom right, #cb7575, #ef9e9f);
+  border-radius: 3px;
 }
-.kind{
-  padding: 10px;
-}
-.menu_icon img{
-  height: 35px;
-}
-.menu_icon{
+
+button{
+  background: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 15px;
   text-align: center;
-  padding: 20px;
+  display: inline-block;
+}
+input{
+  width: 100%;
+  background-color: #a3c9c7;
+  border: none;
+  border-radius: 5px;
+  color: #353848;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+footer{
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 10px 1fr 50px;
 }
