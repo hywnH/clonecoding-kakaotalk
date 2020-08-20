@@ -32,13 +32,33 @@ footer{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border-top: 1.5px solid #9DC8C8;
 }
+.me{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 3fr 2fr;
+  padding: 20px;
+  padding-left: 0px;
+  border-bottom: 1px solid #9DC8C8;
+}
 .friend{
   display: grid;
-  grid-template-columns: 80px auto 1fr 40px;
+  grid-template-columns: 60px auto 1fr 40px;
   grid-template-rows: 3fr 2fr;
   padding: 10px;
 }
+.mypic img{
+  width: 50px;
+}
+.profilepic img{
+  width: 40px;
+}
 .profilepic{
+  align-self: center;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.mypic{
   align-self: center;
   text-align: center;
   grid-row-start: 1;
@@ -76,8 +96,17 @@ footer{
 .kind{
   padding: 10px;
 }
+.icon img{
+  width: 30px;
+}
 .menu_icon img{
   height: 35px;
+}
+.addby{
+  text-align: center;
+}
+.addby img{
+  width: 40px;
 }
 @keyframes menuin {
   from{
@@ -112,4 +141,103 @@ footer{
 main{
   animation-duration: 0.6s;
   animation-name: mainin;
+}
+#add-friend{
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr;
+}
+
+
+
+
+
+@media (max-width : 500px) {
+  header{
+    grid-template-columns: 10px 1fr 30px 30px 10px;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .icon img{
+    width: 20px;
+  }
+  main{
+    padding-top: 46.3px;
+    padding-bottom: 49.7px;
+  }
+  .me{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 3fr 2fr;
+    padding: 20px;
+    padding-left: 0px;
+    border-bottom: 1px solid #9DC8C8;
+  }
+  .friend{
+    grid-template-columns: 50px auto 1fr 25px;
+  }
+  .name{
+    font-size: 15px;
+  }
+  .state{
+    font-size: 10px;
+  }
+  .lasttalk{
+    font-size: 10px;
+    margin-left: 6px;
+  }
+  .mypic img{
+    width: 40px;
+  }
+  .profilepic img{
+    width: 30px;
+  }
+  .kind{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .menu_icon img{
+    height: 25px;
+  }
+  @keyframes menuin {
+    from{
+      height: 0;
+    }
+    50%{
+      height: 33px;
+    }
+    to{
+      height: 28.2px;
+    }
+  }
+  @keyframes mainin {
+    from{
+      margin-top: 70%;
+    }
+    50%{
+      padding-top: 35px;
+      margin-top: 0;
+    }
+    to{
+      padding-top: 46.3px;
+      margin-top: 0;
+    }
+  }
+  .menu_icon{
+    padding: 10px;
+  }
+  .addby{
+    text-align: center;
+  }
+  .addby img{
+    width: 25px;
+  }
+  .addfriend{
+    font-size: 10px;
+  }
+  #add-friend{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
