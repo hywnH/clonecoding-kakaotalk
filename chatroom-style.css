@@ -29,6 +29,8 @@ main{
   grid-template-columns: 80px auto 1fr 40px;
   grid-template-rows: 3fr 2fr;
   padding: 20px 0;
+  animation-name: chatin;
+  animation-duration: 0.6s;
 }
 .profilepic{
   align-self: center;
@@ -61,13 +63,13 @@ main{
 
 .userchat{
   display: grid;
-  grid-template-columns: 1fr auto 20px;
+  grid-template-columns: 30% 1fr auto 20px;
   animation-name: chatin;
   animation-duration: 0.6s;
 }
 .text{
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
   font-size: 20px;
   color: white;
   align-self: center;
